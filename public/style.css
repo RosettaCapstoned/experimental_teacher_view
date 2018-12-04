@@ -1,0 +1,344 @@
+
+.about {
+  background-size: cover;
+  background-color: #FBCCA7;
+}
+
+.avatar {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bio {
+  background-size: cover;
+  background-color: #FBCCA7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  background-size: cover;
+  background-color: #FD9764;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bio {
+  background-size: cover;
+  background-color: #FD9764;
+}
+
+.chat {
+  padding: 5px;
+}
+
+.chatButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatContainer {
+  width: auto;
+  height: 63%;
+  border: 2px solid black;
+  padding: 8px;
+  margin: 7px;
+  overflow: scroll;
+  overflow-wrap: break-word;
+}
+
+.chatDrawer {
+  width: 500px;
+}
+
+.classroomContainer { 
+  margin: 50px 
+}
+
+div .description {
+  /*background-color: #9E9EFD;*/
+  background-size: cover;
+}
+
+.footerLogo {
+  font-family: Georgia, serif; 
+}
+
+.googleButton {
+  width: auto;
+  margin: 15px 0px 15px 0px;
+}
+
+.gridConnection {
+  min-height: 30%;
+  max-height: 80%;
+  height: 70%;
+  width: 60%;
+}
+
+.gridTranscript {
+  width: 40%;
+  border: : 2px solid black;
+  background-color: #FD9764;
+  opacity: 0.8;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  height: 40%;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.position {
+  object-position: 100% 0%;
+}
+
+.lngItem {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 3;
+}
+
+.loginContainer {
+  display: flex; 
+  justify-content: center; 
+  margin: 150px 35% 150px 35%;
+  padding: 15px;
+  width: auto;
+}
+
+div .landingContainer {
+  align-content: center;
+  height: auto;
+  margin: 10% 0% 10% 0%;
+}
+
+.landingHeader {
+  background-image: url('rosetta-capstone-img.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+}
+
+.logoIcons {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  object-fit: cover;
+}
+
+.logoPic {
+  width: auto;
+  height: auto;
+}
+
+.menuIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuList {
+  display: flex; 
+  flex-direction: column;
+}
+
+.messageIcon {
+  position: fixed;
+  bottom: 10;
+  left: 8;
+}
+
+.msg {
+  opacity: 0.8;
+}
+.msgLine {
+  display: flex;
+  width: 70%;
+  object-fit: contain;
+  overflow-wrap: break-word;
+}
+
+.msgPrimary {
+  background-color: blue;
+}
+
+.msgOther {
+  background-color: yellow;
+}
+
+#muteButton {
+  margin: 20px;
+}
+
+.classroomHeader {
+  background-image: url('rosetta-capstone-img.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 15%;
+  object-fit: cover;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+}
+
+.paperContainer {
+  margin: 15px 15px 15px 85px;
+  border: 3px solid #414C56;
+}
+
+.photo {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.photoPosition {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.position {
+  object-position: 100% 0%;
+}
+
+.position2 {
+  object-position: 50% 100%;
+}
+
+.profileContainer {
+  width: 50%;
+  height: 90%;
+  padding: 10px;
+  position: relative;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.screen {
+  width: 80%;
+  height: 60%;
+}
+
+.screenContainer {
+  align-items: center;
+  margin: 35px;
+  min-height: 40%;
+  max-height: auto;
+  width: 65%;
+}
+
+.sectionContainer {
+  align-content: center;
+  height: 100%;
+  padding: 5%;
+}
+
+.selectContainer {
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.selectLng {
+  width: 125px;
+}
+
+.studentAvatars {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #414C56;
+}
+
+.studentInitials {
+  background-color: #FE5501;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.transcriptionContainer {
+  height: 80%;
+  width: 100%;
+  background-color: #FD9764;
+  opacity: 0.8;
+  padding: 15px;
+  overflow: scroll;
+  overflow-wrap: break-word;
+}
+
+video{
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 10px;
+  justify-self: center;
+  align-self: center;
+  outline-color: aqua;
+}
+
+.video {
+  padding: 0px;
+  margin: 0px;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+
+.videoGrid {
+  height: 100%;
+  display: flex;
+}
+
+.whatwedo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
